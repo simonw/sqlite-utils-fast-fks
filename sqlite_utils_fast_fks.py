@@ -20,7 +20,7 @@ def register_commands(cli):
         Example:
 
         \b
-            sqlite-utils add-foreign-keys my.db \\
+            sqlite-utils fast-fks my.db \\
                 books author_id authors id \\
                 authors country_id countries id
         """
