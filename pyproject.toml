@@ -1,0 +1,25 @@
+[project]
+name = "sqlite-utils-fast-fks"
+version = "0.1"
+description = "Fast foreign key addition for sqlite-utils"
+readme = "README.md"
+authors = [{name = "Simon Willison"}]
+license = {text = "Apache-2.0"}
+classifiers = [
+    "License :: OSI Approved :: Apache Software License"
+]
+dependencies = [
+    "sqlite-utils"
+]
+
+[project.urls]
+Homepage = "https://github.com/simonw/sqlite-utils-fast-fks"
+Changelog = "https://github.com/simonw/sqlite-utils-fast-fks/releases"
+Issues = "https://github.com/simonw/sqlite-utils-fast-fks/issues"
+CI = "https://github.com/simonw/sqlite-utils-fast-fks/actions"
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[project.entry-points.sqlite_utils]
+fast_fks = "sqlite_utils_fast_fks"
