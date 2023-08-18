@@ -23,6 +23,8 @@ def register_commands(cli):
             sqlite-utils fast-fks my.db \\
                 books author_id authors id \\
                 authors country_id countries id
+        
+        Documentation: https://github.com/simonw/sqlite-utils-fast-fks
         """
         from sqlite_utils.db import AlterError, Database
 
